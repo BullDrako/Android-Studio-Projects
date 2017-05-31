@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="131dp"
+            android:src="@drawable/back"
+            android:id="@+id/back1"
+            android:layout_marginRight="3dp" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="131dp"
+            android:src="@drawable/back"
+            android:id="@+id/back2"
+            android:layout_marginRight="3dp" />
+
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="131dp"
+            android:src="@drawable/back"
+            android:id="@+id/back3"
+            android:layout_marginRight="3dp" />
+
+        <ImageView
+            android:layout_height="131dp"
+            android:src="@drawable/back"
+            android:id="@+id/back4"
+            android:layout_width="80dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_marginTop="177dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="150dp"
+        android:id="@+id/linearLayout2">
+
+        <ImageView
+            android:layout_height="131dp"
+            android:src="@drawable/back"
+            android:id="@+id/back5"
+            android:layout_width="80dp"
+            android:layout_marginRight="3dp" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="131dp"
+            android:src="@drawable/back"
+            android:id="@+id/back6"
+            android:layout_marginRight="3dp" />
+
+        <ImageView
+            android:layout_height="131dp"
+            android:src="@drawable/back"
+            android:id="@+id/back7"
+            android:layout_width="80dp"
+            android:layout_marginRight="3dp" />
+
+        <ImageView
+            android:layout_height="131dp"
+            android:src="@drawable/back"
+            android:id="@+id/back8"
+            android:layout_width="80dp" />
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+</LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sortir"
+        android:id="@+id/button_sortir"
+        android:layout_marginBottom="70dp"
+        android:layout_above="@+id/textViewNivel"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Configuració"
+        android:id="@+id/button_conf"
+        android:layout_alignTop="@+id/button_sortir"
+        android:layout_toEndOf="@+id/button_sortir" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tornar a jugar"
+        android:id="@+id/button_restart"
+        android:layout_alignTop="@+id/button_conf"
+        android:layout_toEndOf="@+id/button_conf" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Nivel"
+    android:id="@+id/textViewNivel"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignStart="@+id/button_sortir" />
+
+
+</RelativeLayout>

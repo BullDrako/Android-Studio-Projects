@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.alumne.exercicirgbcolorhexadecimal.MainActivity"
+    android:background="#000000">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color en Hexadecimal"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conversor Color Hexadecimal"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:text="Alpha (transparencia) - 255"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/transparenciaTextView"
+        android:layout_below="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:textColor="#ffffff" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/transparenciaSeekBar"
+        android:layout_below="@+id/transparenciaTextView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rojo - 0"
+        android:id="@+id/rojoTextView"
+        android:layout_below="@+id/transparenciaSeekBar"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rojoSeekBar"
+        android:layout_below="@+id/rojoTextView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verde - 0"
+        android:id="@+id/verdeTextView"
+        android:layout_below="@+id/rojoSeekBar"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/verdeSeekBar"
+        android:layout_below="@+id/verdeTextView"
+        android:layout_alignEnd="@+id/rojoSeekBar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blue - 0"
+        android:id="@+id/azulTextView"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/verdeSeekBar"
+        android:textColor="#ffffff" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/azulSeekBar"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/azulTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Muestra del color"
+        android:id="@+id/muestraDelColorTextView"
+        android:layout_below="@+id/azulSeekBar"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/colorMuestraDelColorTextView"
+        android:layout_below="@+id/muestraDelColorTextView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/conversionAhexadecimalTextView"
+        android:layout_below="@+id/colorMuestraDelColorTextView"
+        android:layout_alignParentStart="true"
+        android:text="Conversión a Hexadecimal"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hexadecimalTextView"
+        android:layout_below="@+id/conversionAhexadecimalTextView"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+
+</RelativeLayout>

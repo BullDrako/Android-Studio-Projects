@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color en hexadecimal"
+        android:background="#9f9c9e"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView android:id="@+id/titulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conversion color a hexadecimal"
+        android:background="#0011ff"
+        android:textColor="@android:color/white"
+        android:textAlignment="center" />
+
+
+
+    <TextView android:id="@+id/textoGris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alpha (transparencia)"
+        android:textColor="@android:color/white" />
+
+    <SeekBar android:id="@+id/seekBarGris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:color="#70555555"
+        android:clickable="false"
+        android:progressDrawable="@drawable/degradado_gris"/>
+
+
+    <TextView android:id="@+id/textoRojo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rojo"
+        android:textColor="@android:color/white" />
+
+    <SeekBar android:id="@+id/seekBarRojo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:color="#ff0000"
+        android:clickable="false"
+        android:progressDrawable="@drawable/degradado_rojo"/>
+
+
+    <TextView android:id="@+id/textoVerde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verde"
+        android:textColor="@android:color/white" />
+
+    <SeekBar android:id="@+id/seekBarVerde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:color="#ff0000"
+        android:clickable="false"
+        android:progressDrawable="@drawable/degradado_rojo"/>
+
+    <TextView android:id="@+id/textoAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verde"
+        android:textColor="@android:color/white" />
+
+    <SeekBar android:id="@+id/seekBarAzul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:color="#ff0000"
+        android:clickable="false"
+        android:progressDrawable="@drawable/degradado_rojo"/>
+
+    <TextView android:id="@+id/textoHexadecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="# 00 00 00 00"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:background="#0011ff"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

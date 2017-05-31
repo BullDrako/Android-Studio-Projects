@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Description of this application: 
+	Create Options Menu.  Click MENU button.</string>
+    <string name="app_name">Options Menu</string>
+</resources>

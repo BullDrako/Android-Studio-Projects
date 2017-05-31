@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8930f">
+
+
+    <TextView android:id="@+id/tituloCartas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suma Cartas"
+        android:background="#0078ff"
+        android:textColor="@android:color/white"
+        android:textAlignment="textStart" />
+
+
+    <TextView android:id="@+id/tituloCartas2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consigue Sitete y medio"
+        android:textColor="@android:color/white"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView"
+            android:src="@drawable/back"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView2"
+            android:src="@drawable/back"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView3"
+            android:src="@drawable/back"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView4"
+            android:src="@drawable/back"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView5"
+            android:src="@drawable/back"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView6"
+            android:src="@drawable/back"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView7"
+            android:src="@drawable/back"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView8"
+            android:src="@drawable/back"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total: "
+        android:id="@+id/textTotal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cartas utilizadas: "
+        android:id="@+id/textCartasUtilizadas" />
+
+
+</LinearLayout>

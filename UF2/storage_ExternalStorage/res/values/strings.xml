@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<string name="hello"><b>This application shows how to use external storage. 
+ 	This application
+	needs to be built with Android 2.2 since it contains APIs available
+	only in 2.2.</b>\n</string>
+    <string name="app_name">storage_ExternalStorage</string>
+    <string name="string1">Create external storage directory and save a picture</string>
+    <string name="string2">Delete the picture from the external storage</string>
+    <string name="string3">Check if the picture is present in the external storage</string>
+    <string name="string4">Display the absolute path of the external storage</string>
+</resources>

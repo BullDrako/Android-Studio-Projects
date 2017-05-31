@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">
+	<b>Create Context Menu. Press button long to see the context menu.</b>\n</string>
+    <string name="app_name">menu_ContextMenu</string>
+    <string name="longpress">Press me long to see the Context Menu!</string>
+</resources>

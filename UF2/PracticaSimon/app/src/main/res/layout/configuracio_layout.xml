@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/confLayout"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONFIGURACIO"
+        android:id="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:id="@+id/textView_Nombre"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditText_Nombre"
+        android:layout_below="@+id/textView_Nombre"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:id="@+id/button_ok"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <RadioGroup android:id="@+id/radioGroup"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+
+        android:layout_below="@+id/textView_fondo_pantalla"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp">
+
+        <RadioButton
+            android:text="Fondo 1"
+            android:id="@+id/rb_fondo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:text="Fondo 2"
+            android:id="@+id/rb_fondo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rb_fondo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fondo 3"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cambiar el fondo de pantalla:"
+        android:id="@+id/textView_fondo_pantalla"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/EditText_Nombre"
+        android:layout_alignParentEnd="true" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elegir cancion de fondo:"
+        android:id="@+id/textView_fondo_cancion"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/radioGroup"
+        android:layout_alignParentStart="true" />
+
+    <RadioGroup android:id="@+id/radioGroupCanciones"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_above="@+id/button_ok"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:id="@+id/rb_cancion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancion 1"
+            android:textSize="20dp"
+            android:layout_below="@+id/rb_cancion2"
+            android:layout_alignStart="@+id/textView_fondo_cancion" />
+
+        <RadioButton
+            android:id="@+id/rb_cancion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancion 2"
+            android:textSize="20dp"
+            android:layout_below="@+id/rb_cancion1"
+            android:layout_alignStart="@+id/rb_cancion3" />
+
+        <RadioButton
+            android:id="@+id/rb_cancion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancion 3"
+            android:textSize="20dp"
+            android:layout_below="@+id/textView_fondo_cancion"
+            android:layout_alignStart="@+id/textView_fondo_cancion" />
+    </RadioGroup>
+
+</RelativeLayout>

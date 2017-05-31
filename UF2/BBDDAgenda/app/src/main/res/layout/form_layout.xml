@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:id="@+id/textViewNom"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="44dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/editTextNom" />
+
+    <TextView
+        android:text="Nom Nou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextNom"
+        android:layout_alignStart="@+id/textViewNom"
+        android:layout_marginTop="53dp"
+        android:id="@+id/textViewNomNou"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/editTextNom"
+        android:layout_alignStart="@+id/editTextNom"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="42dp"
+        android:id="@+id/editTextNomNou"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="Insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextNomNou"
+        android:layout_alignStart="@+id/textViewNomNou"
+        android:layout_marginTop="52dp"
+        android:id="@+id/buttonInsert" />
+
+    <Button
+        android:text="Update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonInsert"
+        android:layout_alignStart="@+id/editTextNomNou"
+        android:id="@+id/buttonUpdate" />
+
+    <Button
+        android:text="Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonUpdate"
+        android:layout_alignEnd="@+id/editTextNom"
+        android:id="@+id/buttonDelete" />
+</RelativeLayout>

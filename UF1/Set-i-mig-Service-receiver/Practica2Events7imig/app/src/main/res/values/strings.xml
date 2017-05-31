@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Practica2 Events 7 i mig</string>
+
+    <string-array name="fondos">
+        <item>fondo1</item>
+        <item>fondo2</item>
+        <item>fondo3</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="hello"><b>This application shows how to use internal storage. By default,
+	files saved to the internal storage are private to your application
+	and other applications cannot access them (nor can the user).
+	When the user uninstalls your application, these files are
+	removed.</b>\n</string>
+    <string name="app_name">storage_InternalStorage</string>
+    <string name="string1">Write something to a file</string>
+    <string name="string2">Read the file</string>
+</resources>
